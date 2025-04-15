@@ -1,0 +1,28 @@
+# Build directories
+/build/
+/dist/
+
+# Generated icons
+/src/common/icons/icon-*.png
+
+# Dependency directories
+/node_modules/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Package files
+*.zip
+*.xpi
+
+# Logs
+*.log
+npm-debug.log* 

@@ -1,0 +1,43 @@
+{
+    "manifest_version": 2,
+    "name": "NutriPlan Recipe Importer",
+    "version": "1.0.0",
+    "description": "Easily import recipes from any website to your NutriPlan application",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "notifications",
+        "<all_urls>"
+    ],
+    "browser_action": {
+        "default_title": "Import to NutriPlan",
+        "default_icon": {
+            "16": "icons/icon-16.png",
+            "32": "icons/icon-32.png",
+            "48": "icons/icon-48.png",
+            "128": "icons/icon-128.png"
+        }
+    },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": true
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "icons": {
+        "16": "icons/icon-16.png",
+        "32": "icons/icon-32.png",
+        "48": "icons/icon-48.png",
+        "128": "icons/icon-128.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "nutriplan-importer@example.com",
+            "strict_min_version": "57.0"
+        }
+    }
+}
