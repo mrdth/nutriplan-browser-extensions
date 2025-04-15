@@ -74,9 +74,9 @@ For browsers that don't support extensions or for users who prefer a lighter sol
 
 ### Installation
 
-1. Visit the bookmarklet page in your browser: [bookmarklet/index.html]()
+1. Visit the bookmarklet page in your browser: [bookmarklet/index.html](bookmarklet/index.html)
 2. Drag the "Import to NutriPlan" button to your bookmarks bar
-3. Alternatively, create a new bookmark and paste the code from [bookmarklet/nutriplan-import.min.js]() as the URL
+3. Alternatively, create a new bookmark and paste the code from [bookmarklet/nutriplan-import.min.js](bookmarklet/nutriplan-import.min.js) as the URL
 
 ### Configuration
 
